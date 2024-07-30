@@ -3,7 +3,6 @@ import SynergyRow from './SynergyRow';
 import './SynergyTable.css';
 
 const synergyData = [
-  // Populate this array with the synergy data
   {
     id: 1,
     name: 'Synergy One',
