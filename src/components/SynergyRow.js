@@ -1,6 +1,8 @@
 import React from 'react';
 import './SynergyRow.css';
 
+
+
 const SynergyRow = ({ synergy }) => {
   return (
     <tr>
