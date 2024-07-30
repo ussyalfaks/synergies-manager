@@ -1,0 +1,19 @@
+.header {
+    align-items: center;
+    padding: 10px;
+    color: white;
+  }
+  .headtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    outline: none;
+    
+  }
+ 
+  

@@ -1,0 +1,20 @@
+.synergies-manager {
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .filters-button, .add-synergy-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

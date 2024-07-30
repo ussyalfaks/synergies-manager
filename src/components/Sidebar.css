@@ -1,0 +1,58 @@
+.sidebar {
+    width: 11em;
+    height: 35em;
+    background-color: #1c1c1e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .user-info p {
+    font-size: small;
+    margin: 5px 15px 0px 15px;
+  }
+  
+  .user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    border: 1px solid whitesmoke;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  nav ul li.active {
+    padding: 10px 10px 10px 5px;
+    background-color: #333;
+    border-radius: 20px;
+  }
+  
+  .logout-button {
+    margin: auto 0px 15px 0px;
+    padding: 10px;
+    background-color: #e94e77;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }

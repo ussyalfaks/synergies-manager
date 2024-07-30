@@ -1,0 +1,15 @@
+.synergy-table {
+    background-color: #1c1c1e;
+    color: white;
+  }
+  
+  .synergy-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .synergy-table th, .synergy-table td {
+    padding: 10px;
+    border: 1px solid #333;
+  }
+  

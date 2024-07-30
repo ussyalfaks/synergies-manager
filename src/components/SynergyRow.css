@@ -1,0 +1,14 @@
+.synergy-table img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .synergy-table button {
+    background-color: #e94e77;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin: 0 2px;
+    cursor: pointer;
+  }
+  

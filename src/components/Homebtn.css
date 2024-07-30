@@ -1,0 +1,11 @@
+.homebtn{
+    display: flex;
+    justify-content: end;
+  }
+  .home-page-button {
+    background-color: #e94e77;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
