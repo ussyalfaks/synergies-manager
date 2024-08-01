@@ -1,18 +1,19 @@
 .synergy-table {
     background-color: #1c1c1e;
     color: white;
+    width: 100%;
+    margin: 0 auto;
   }
   
   .synergy-table table {
     width: 100%;
     border-collapse: collapse;
-    overflow-x:auto;
-
   }
   
   .synergy-table th, .synergy-table td {
     padding: 10px;
     border: 1px solid #333;
+    text-align: center;
   }
   
   

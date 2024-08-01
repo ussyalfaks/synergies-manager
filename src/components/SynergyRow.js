@@ -5,7 +5,7 @@ import './SynergyRow.css';
 
 const SynergyRow = ({ synergy }) => {
   return (
-    <tr>
+    <tr className='details'>
       <td><input type="checkbox" /></td>
       <td>{synergy.name}</td>
       <td>{synergy.creator}</td>

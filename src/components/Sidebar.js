@@ -7,6 +7,7 @@ import { faProjectDiagram, faTasks, faComments, faUser, faSignOutAlt } from '@fo
 const Sidebar = () => {
   return (
     <div className="sidebar">
+      
       <div className="user-info">
         <img src={Avatar} alt="User Avatar" />
         <div>
@@ -14,6 +15,8 @@ const Sidebar = () => {
           <p>Admin</p>
         </div>
       </div>
+
+
       <nav>
         <ul>
           <li>
@@ -38,10 +41,15 @@ const Sidebar = () => {
           </li>
         </ul>
       </nav>
+
+      <div>
       <button className="logout-button">
         <FontAwesomeIcon icon={faSignOutAlt} />
         Logout
       </button>
+      </div>
+
+
     </div>
   );
 };
