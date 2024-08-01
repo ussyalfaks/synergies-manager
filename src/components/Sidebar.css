@@ -55,6 +55,7 @@ nav ul li.active {
   padding: 10px 5px;
 }
 
+
 .logout-button {
   margin: auto 0 15px 0;
   padding: 10px;
@@ -92,7 +93,11 @@ nav ul li.active {
   nav ul li {
     padding: 5px;
   }
-
+  .Icons{
+    width: 15px;
+  }
+  span{
+  }
   .logout-button {
     width: 100%;
     justify-content: center;

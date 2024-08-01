@@ -2,7 +2,7 @@
     background-color: #1c1c1e;
     color: white;
     width: 100%;
-    margin: 0 auto;
+    overflow-x: auto;
   }
   
   .synergy-table table {
@@ -16,4 +16,12 @@
     text-align: center;
   }
   
+  @media (max-width: 768px) {
+    
+  
+   
+  
+    
+  
+  }
   

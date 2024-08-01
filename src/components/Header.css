@@ -9,7 +9,9 @@
     align-items: center;
 
   }
-  
+  h1 h3 {
+    font-family: cursive;
+  }
   .search-bar input {
     padding: 5px;
     outline: none;

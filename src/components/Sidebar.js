@@ -7,7 +7,7 @@ import { faProjectDiagram, faTasks, faComments, faUser, faSignOutAlt } from '@fo
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      
+
       <div className="user-info">
         <img src={Avatar} alt="User Avatar" />
         <div>
@@ -20,23 +20,23 @@ const Sidebar = () => {
       <nav>
         <ul>
           <li>
-            <FontAwesomeIcon icon={faProjectDiagram} />
+            <FontAwesomeIcon icon={faProjectDiagram} className='Icons' />
             <span>Projects Manager</span>
           </li>
           <li>
-            <FontAwesomeIcon icon={faTasks} />
+            <FontAwesomeIcon icon={faTasks} className='Icons' />
             <span>Pending Synergies</span>
           </li>
           <li className="active">
-            <FontAwesomeIcon icon={faTasks} />
+            <FontAwesomeIcon icon={faTasks} className='Icons' />
             <span>Synergies Manager</span>
           </li>
           <li>
-            <FontAwesomeIcon icon={faComments} />
+            <FontAwesomeIcon icon={faComments} className='Icons' />
             <span>Chat</span>
           </li>
           <li>
-            <FontAwesomeIcon icon={faUser} />
+            <FontAwesomeIcon icon={faUser} className='Icons' />
             <span>Profile</span>
           </li>
         </ul>
@@ -44,7 +44,7 @@ const Sidebar = () => {
 
       <div>
       <button className="logout-button">
-        <FontAwesomeIcon icon={faSignOutAlt} />
+        <FontAwesomeIcon icon={faSignOutAlt} className='Icons' />
         Logout
       </button>
       </div>
